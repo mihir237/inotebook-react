@@ -1,0 +1,26 @@
+i {
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 5px;
+  border-radius: 10rem;
+}
+i:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+
+/* Custom Alert  */
+.custom-alert {
+  
+  margin-top: 1rem;
+  margin-bottom: 50rem !important;
+  max-width: 50rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
